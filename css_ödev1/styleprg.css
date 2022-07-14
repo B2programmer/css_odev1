@@ -1,0 +1,112 @@
+.p1 {
+    font-size: 20px;
+    color:rgb(132, 46, 172);
+    font-family:monospace;
+    font-style: bold;
+    text-align-last: left;
+}
+.p2 {
+    font-size: 30px;
+    color:red;
+    font-family:monospace;
+    font-style: bold;
+    text-align-last: center;
+}    
+/* side bar menu */
+.sidebar{
+    position:absolute;
+    width:20%;
+    height:100%    ;
+    font-size: 24px;
+    background: #0c202563;
+    min-height: 50vh;
+    right: 0px;
+}
+.nav {
+    position:relative;
+    margin: 50 20%;
+    text-align: left;
+    top: 50%;
+    transform: translateY(-50%);
+    font-weight: bold;
+  }
+  .nav ul {
+    list-style: none;
+    font-family: monospace;
+    transition: 1.5s;
+  }
+  .nav ul a{
+    transition: 0.8s;
+    color: #8aaab4;
+    font-family:monospace;
+  }
+  .nav ul .active a{
+    color: rgb(31, 29, 148);
+    font-family:cursive;
+  }
+  .nav ul a:hover{
+    color: rgb(255, 30, 0);
+  }
+  a {
+    
+    line-height: 7em;
+    text-transform: uppercase;
+    text-decoration: none;
+    letter-spacing: 0.2em;
+    color: white
+    
+  }
+  /* heading */
+  .header 
+    *
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: arial;
+
+}
+
+body
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 10vh;
+    background: #07252d;
+}
+h2
+{
+    position: relative;
+    font-size: 6em;
+    letter-spacing: 15px;
+    color:#0e3742;
+    text-transform: uppercase;
+    width: 100%;
+    text-align: center;
+    -webkit-box-reflect: below 1px linear-gradient(transparent,#0008);
+    line-height: 0.70em; 
+    outline: none;
+    animation: animate  5s linear infinite;
+}
+@keyframes animate
+{
+    0%,18%,20%,50.1%,60%,65.1%,80%,90.1%,92% 
+    
+    {
+        
+        color: #320e42;
+        text-shadow: none;  
+    }      
+    
+    
+    18.1%,20.1%,30%,50%,60.1%,65%,80.1%,90%,92.1%,100%
+    {    
+        color: #fff;
+        text-shadow: 0 0 10px #ec03f4,
+        0 0 20px #ec03f4,
+        0 0 40px #ec03f4,
+        0 0 80px #ec03f4,
+        0 0 160px #ec03f4;
+    }
+  }
